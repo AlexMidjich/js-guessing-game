@@ -19,14 +19,14 @@ I'm not entierly sure on how to execute this, I figure that I need to use some k
 If the choose "yes" the existin code in the loop will have to run again. If they choose "no" the loop will break and give all the statistics from their game.
 
 I'm thinking about using a "do-loop" saying:</br>
-(ask if the user wants to play on more time)
-do { 
-  the guessing part of the game
-while users answer is yes;
-  have variable that count how many time you answer yes
-else {
-show user stats;
-}
+(ask if the user wants to play on more time)</br>
+do { </br>
+  the guessing part of the game</br>
+while users answer is yes;</br>
+  have variable that count how many time you answer yes</br>
+else {</br>
+show user stats;</br>
+}</br>
 }
 
 
