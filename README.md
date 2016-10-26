@@ -18,7 +18,7 @@ I also need to figure out how to let the program store data on how many rounds t
 I'm not entierly sure on how to execute this, I figure that I need to use some kind of a loop where I put the existing code. I will want the user to answer a question if the want to continue.
 If the choose "yes" the existin code in the loop will have to run again. If they choose "no" the loop will break and give all the statistics from their game.
 
-I'm thinking about using a "do-loop" saying:
+I'm thinking about using a "do-loop" saying:</br>
 (ask if the user wants to play on more time)
 do { 
   the guessing part of the game
