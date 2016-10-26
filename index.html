@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JS övning</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+alert("Gissa på ett nummer mellan 1-10")
+
+var userNumber = 10; // gissa på ett nummer mellan 1 och userNumber
+var counter = 0; // räknar antalet gissningar
+var rightCounter = 0; // räknar antalet korrekta gissningar
+
+// genererar ett slumpmässigt tal mellan 1 och userNumber
+var randomNumber = Math.floor(Math.random() * userNumber) + 1;
+console.log(Math.floor(Math.random() * userNumber) + 1); // visar rätt svar i console
+
+// while-loop som loggar användarens gissningar, körs till att användaren gissat rätt
+while (attempts != randomNumber) {
+	var attempts = prompt("Välj ett nummer mellan 1 och " + userNumber);
+	counter += 1;
+
+	if(attempts == randomNumber){
+		alert("Grattis du gissade rätt nummer, Rätt nummer var " + randomNumber);
+		rightCounter +=1;
+		document.write("<p>Rätt nummer var " + randomNumber + "</p>");
+		document.write("<p>Det tog dig " + counter + " försök att gissa rätt</p>");
+		document.write("<p>Du har gissat rätt " + rightCounter + " gånger</p>");
+		
+	}
+}
+
+</script>
+
+</body>
+</html>	
